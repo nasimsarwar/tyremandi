@@ -8,11 +8,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-           Welcome to Tyremandi.com
-        </p><br>
-         <p>
-           We will get back very soon. Thank you for visiting 
+          welcome to Tyremandi.com
         </p>
+        <a
+          className="App-link"
+          href="https://tyremandi.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          www.tyremandi.com
+        </a>
        
       </header>
     </div>
